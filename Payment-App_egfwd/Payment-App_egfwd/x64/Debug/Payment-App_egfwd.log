@@ -1,0 +1,5 @@
+﻿  app.c
+I:\egFWD\Payment_App_egfwd\Payment-App_egfwd\Payment-App_egfwd\Card\card.h(6,1): warning C4005: 'NULL': macro redefinition
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vcruntime.h(235): message : see previous definition of 'NULL'
+I:\egFWD\Payment_App_egfwd\Payment-App_egfwd\Payment-App_egfwd\Application\app.c(180,5): warning C4013: 'exit' undefined; assuming extern returning int
+  Payment-App_egfwd.vcxproj -> I:\egFWD\Payment_App_egfwd\Payment-App_egfwd\x64\Debug\Payment-App_egfwd.exe

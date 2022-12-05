@@ -1,0 +1,59 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.33.31630.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///i:/egfwd/task1/payment-app_egfwd/payment-app_egfwd/server/server.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "30be24105e935ffdd01f19fdd50b9a93f4c629515cc4ba16be4ed5f6d8f927e4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///i:/egfwd/task1/payment-app_egfwd/payment-app_egfwd/server/server.h"
+          },
+          "hashes": {
+            "sha-256": "8324364f907fc43caba7607320b3901881d533dc47a97ea9e6dd28254b94bb11"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///i:/egfwd/task1/payment-app_egfwd/payment-app_egfwd/terminal/terminal.h"
+          },
+          "hashes": {
+            "sha-256": "b63c3c01381341292d94c82852a56b65b3bcaeeece89cc12520ec586ee48b64b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///i:/egfwd/task1/payment-app_egfwd/payment-app_egfwd/card/card.h"
+          },
+          "hashes": {
+            "sha-256": "c3679d4c2e2294702b142482dd18146329fb3f5d677ac3f9f413bb51f78c7e57"
+          }
+        }
+      ]
+    }
+  ]
+}
